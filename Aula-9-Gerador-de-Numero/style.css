@@ -1,15 +1,4 @@
-#countLabel{
-    display: block;
-    text-align: center;
-    font-size: 10em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-#btnContainer{
-    text-align: center;
-}
-
-.buttons{
+#gerarBtn{
   padding: 10px 20px;
   font-size: 1.5em;
   background-color: rgb(97, 97, 241);
@@ -18,6 +7,16 @@
   cursor: pointer;
   transition: background-color 0.25s;
 }
-.buttons:hover{
-    background-color: rgba(97, 97, 241, 0.664);
+#btnContainer{
+    text-align: center;
+
+}
+#gerarBtn:hover{
+    background-color: rgb(78, 78, 196);
+}
+
+#numero{
+    font-size: 2em;
+    text-align: center;
+    display: block;
 }
